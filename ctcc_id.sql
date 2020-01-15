@@ -8,4 +8,4 @@
 -- Kyle Chesney, UF CTSIT
 
 REPLACE into redcap_validation_types (validation_name, validation_label, regex_js, regex_php, data_type)
-VALUES ('number_2hyp', 'CHET CTCC ID (###-###-###)', '/^\d{3}-\d{3}-\d{3}$/', '/^\d{3}-\d{3}-\d{3}$/', 'text')
+VALUES ('chet_ctcc_id', 'CHET CTCC ID (###-###-###)', '/^\\d{3}-\\d{3}-\\d{3}$/', '/^\\d{3}-\\d{3}-\\d{3}$/', 'text')
